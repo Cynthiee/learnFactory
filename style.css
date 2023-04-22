@@ -1,0 +1,131 @@
+body {
+  background-color: #5353e6;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  margin: 85px 120px;
+}
+
+.column1 {
+  flex-direction: column;
+  float: left;
+  background-color: #3d3ddb;
+  color: azure;
+  height: 550px;
+  width: 50%;
+}
+
+.column2 {
+  flex-direction: column;
+  float: left;
+  background-color: azure;
+  color: blue;
+  height: 550px;
+  width: 50%;
+}
+
+header h1 {
+  color: azure;
+ font-family:sans-serif;
+  text-decoration: solid;
+  font-weight: bolder;
+  text-align: center;
+  font-size: xx-large;
+  margin: 50px;
+}
+
+header h1 span {
+  color: #8181fc;
+}
+
+header h2 {
+  color: azure;
+  font-weight: lighter;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  text-decoration: solid;
+}
+
+div img {
+  display: flex;
+  border-radius: 60px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+div h4 {
+  color: azure;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.column1 button.continue{
+  background-color: #3d3ddb ;
+  display: block;
+  border-radius: 35px;
+  border-color: azure;
+  padding: 10px;
+  margin: 60px 100px;
+  color:azure;
+  font-weight: lighter;
+  cursor: pointer;
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+  border-style: groove;
+}
+.column2 h1{
+  text-align: center;
+  margin: 50px;
+}
+.column2 input{
+background-color: transparent;
+}
+.column2 form{
+background-color: #e8fcfc;
+border-radius: 80px;
+padding-left: 5px;
+padding-right: 5px;
+opacity: 2;
+}
+.column2 input.lined {
+  margin-top: 30px;
+  margin-left: 35%;
+  border: none;
+}
+button.login{
+  background-color:#3d3ddb ;
+    display: block;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 80px 100px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 60%;
+    text-align: center;
+    font-size: 16px;
+    border:none;
+}
+
+button.create {
+  background-color: azure;
+  display: block;
+  border-radius: 35px;
+  padding: 10px;
+  margin: 80px 100px;
+  color: #3d3ddb;
+  font-weight: bolder;
+  cursor: pointer;
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+  border-color: #4949e6;
+}
